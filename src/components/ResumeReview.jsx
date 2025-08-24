@@ -14,7 +14,7 @@ const ScoreBoard =({feedback, parameter}) => {
         const score = feedback[parameter].score;
         setScore(score);
 
-        const badgeText = score>=90?'Strong':score>=80?'Good':score>=60?'Need Improv..':score>=50?'Good Start':'Need Work';
+        const badgeText = score>=90?'Strong':score>=80?'Good':score>=60?'Improve':score>=50?'Good Start':'Need Work';
         setBadgeText(badgeText);
 
         const parameterText = parameter==='toneAndStyle'?'Tone':parameter==='content'?'Content':parameter==='structure'?'Structure':'Skills';
