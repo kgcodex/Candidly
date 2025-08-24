@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@plugin "daisyui"{
+  themes: night --default;
+}
+
+body {
+  @apply bg-base-200 min-h-screen;
+}
